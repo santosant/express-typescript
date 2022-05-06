@@ -2,10 +2,10 @@ interface PingResponse {
   message: string;
 }
 
-export default function PingController {
-  async getMessage(): Promise<PingController> {
+export default class PingController {
+  public async getMessage(): Promise<PingResponse> {
     return {
-      message: "pong"
-    }
+      message: "pong",
+    };
   }
 }

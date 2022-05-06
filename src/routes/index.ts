@@ -9,4 +9,4 @@ router.get("/ping", async (req, res) => {
   return res.send(response)
 })
 
-export default router/
+export default router;
