@@ -15,11 +15,11 @@ app.use(
   "/docs",
   swaggerUi.serve,
   swaggerUi.setup(undefined, {
-    swaggerOption: {
+    swaggerOptions: {
       url: "/swagger.json",
-    }
+    },
   })
-)
+);
 
 app.use(Router)
 
